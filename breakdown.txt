@@ -1,0 +1,13 @@
+Added for posterity.  The initial discussion of how to structure our password
+manager.
+
+Possible breakdown of modules
+
+- GUI
+- Logging module(s) (Server side)
+- Password hashing/cryptography module (Server-side ?)
+- Account management module (Client side & server side) - this probably includes the client view
+    of their stored passwords log
+- Networking module
+- Administrative functions module (Client side?)
+- Authentication module (Server side)
